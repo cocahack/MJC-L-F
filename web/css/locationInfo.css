@@ -1,0 +1,26 @@
+h2{
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+.h_deco{
+    display: inline-block;
+    width: 200px;
+    height: 2px;
+    margin-bottom: 15px;
+    background-color: #475174;
+}
+#map_canvas{
+	margin: 0 auto;
+	width:700px;
+	height:500px;
+}
+p{
+	text-indent: 5px;
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: 400;
+}
+#icon{
+	width:20px;
+	margin-right: 10px; 
+}

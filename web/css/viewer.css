@@ -1,0 +1,73 @@
+.viewFrame {
+	width: 100%;
+    margin-bottom: 30px;
+    display: block;
+}
+.viewFrame:nth-child(2){
+    clear: both;
+}
+.viewFrame h2{
+    display: inline-block;
+    background: url(../img/blt031.gif) 5px 2px no-repeat;
+    padding: 1px 0 0 16px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #000;
+}
+.viewFrame .half{
+    width: 48%;
+    display: inline-block;
+    float: left;
+}
+.half img{
+    max-width: 360px;
+    max-height:256px;
+}
+.half>ul>li{
+    position: relative;
+    border-top: 1px dashed #ccc;
+    background: #f4f7fc;
+}
+.category {
+	position: relative;
+    background: url(../img/ico_jum.gif) 5px 50% no-repeat;
+    width: 25%;
+    padding: 0 0 0 14px;
+    font-size: 14px;
+    font-weight: normal;
+    height: 31px;
+    line-height: 31px;
+    display: inline-block;
+}
+.category_content{
+    width:65%;
+    display: inline-block;
+    padding: 8px 0 8px 14px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    background: #fff;
+}
+.no_value{
+    color:#777;
+}
+.textarea{
+	display: block;
+	width: 100%;
+    padding: 5px 10px;
+    height: 200px;
+    background: #f4f7fc;
+    line-height: 20px;
+    border: 1px dashed #ccc; 
+}
+.button_div {
+	
+}
+.left{
+	float: left;
+	display: inline-block;
+}
+.right{
+	float: right;
+	display: inline-block;
+}

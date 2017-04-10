@@ -1,0 +1,130 @@
+.search{
+    margin-bottom: 10px;
+        -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: 2px solid #475174;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  color: black;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  -webkit-box-shadow: 3px 3px 4px 0 rgba(0,0,0,0.4) ;
+  box-shadow: 3px 3px 4px 0 rgba(0,0,0,0.4) ;
+}
+.divide{
+    width: 45%;
+    display: inline-block;
+}
+.search>.bar{
+    width: 100%;
+    text-align: center;
+    border-bottom: 2px solid #475174;
+}
+.bar img{
+    width:30px;
+}
+.detail_search{
+    width: 100%;
+    display: none;
+}
+.detail_search ul{
+    width: 100%;
+}
+.date{
+    width: 90px;
+}
+.swun_dash {
+	margin: 0 10px;
+}
+.search_form li{
+    margin: 10px 0 10px 50px;
+    overflow: auto;
+}
+.search_form button{
+    float: right;
+    margin-right: 20px;
+}
+.board>table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.board_head {
+	border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.board_head>th{
+    padding: 7px 6px;
+    background-color: #cccccc;
+}
+.board_head th:nth-child(1){
+    width:7%;
+}
+.board_head th:nth-child(2){
+    width:53%;
+}
+.board_head th:nth-child(3){
+    width:10%;
+}
+.board_head th:nth-child(4){
+    width:20%;
+}
+.board_body{
+    border-bottom: 1px solid #cccccc;
+}
+.board_body>td{
+    padding: 7px 6px;
+    font-size: 13px;
+}
+.board_body>td>a{
+    color:black;
+    display:inline-block;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.board_body>td:nth-child(1){
+    text-align: center;
+}
+.board_body>td:nth-child(2){
+    
+}
+.board_body>td:nth-child(3){
+    text-align: center;
+}
+.board_body>td:nth-child(4){
+    text-align: center;
+}
+.classify{
+    margin-left: 20px;
+    color:#ff7373;
+}
+#pagination {
+    margin-top: 10px;
+	display: inline-block;
+    float: left;
+}
+#pagination ul{
+    display: inline-block;
+}
+#pagination li{
+    display: inline;
+}
+#pagination li>a{
+    color: black;
+    float: left;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+#pagination li>a.current{
+    color: #fff;
+    background-color: #475174;
+}
+#bottom_button {
+    display: inline-block;
+	margin-top: 10px;
+    float: right;
+}
+#bottom_button button{
+    position: relative;
+    top:2px;
+}

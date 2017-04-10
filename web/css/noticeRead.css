@@ -1,0 +1,46 @@
+.content_header{
+    padding: 15px 10px;
+    background-color: #fbfbfb;
+    color: #777;
+}
+.content_header>span {
+	display: inline-block;
+}
+.content_header .title{
+    font-weight: 700;
+    width: 55%;
+    overflow: hidden;
+}
+.content_header .name{
+    width: 7%;
+}
+.content_header .regitDate{
+    width: 25%;
+}
+.content_header .count{
+    width: 10%;
+}
+.content_body {
+	margin: 10px 0 20px 0;
+}
+.content_body img {
+	display: block;
+    margin-bottom: 10px;
+}
+.content_body>p
+{
+	line-height: 20px;
+}
+.content_footer>div {
+	display: inline-block;
+}
+.left{
+    float: left;
+}
+.right {
+    float: right;
+}
+.content_img{
+	max-width: 747px;
+	min-height:500px;
+}

@@ -1,0 +1,125 @@
+.board>table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.board_head {
+	border-top: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+}
+.board_head>th{
+    padding: 7px 6px;
+    background-color: #cccccc;
+}
+.board_head th:nth-child(1){
+    width:7%;
+}
+.board_head th:nth-child(2){
+    width:53%;
+}
+.board_head th:nth-child(3){
+    width:20%;
+}
+.board_head th:nth-child(4){
+    width:10%;
+}
+.board_body{
+    border-bottom: 1px solid #cccccc;
+}
+.board_body>td{
+    padding: 7px 6px;
+    font-size: 13px;
+}
+.board_body>td>a{
+    color:black;
+}
+.board_body>td:nth-child(1){
+    text-align: center;
+}
+.board_body>td:nth-child(2){
+    
+}
+.board_body>td:nth-child(3){
+    text-align: center;
+}
+.board_body>td:nth-child(4){
+    text-align: center;
+}
+.align_middle {
+	text-align: center;
+}
+.classify{
+    margin-left: 20px;
+    color:#ff7373;
+}
+#pagination {
+    margin-top: 10px;
+	display: inline-block;
+    float: left;
+}
+#pagination ul{
+    display: inline-block;
+}
+#pagination li{
+    display: inline;
+}
+#pagination li>a{
+    color: black;
+    float: left;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+#pagination li>a.current{
+    color: #fff;
+    background-color: #475174;
+}
+#bottom_button {
+    display: inline-block;
+	margin-top: 10px;
+    float: right;
+}
+#bottom_button button{
+    position: relative;
+    top:2px;
+}
+.classify{
+    margin-left: 20px;
+    color:#ff7373;
+}
+#pagination {
+    margin-top: 10px;
+	display: inline-block;
+    float: left;
+}
+#pagination ul{
+    display: inline-block;
+}
+#pagination li{
+    display: inline;
+}
+#pagination li>a{
+    color: black;
+    float: left;
+    padding: 8px 14px;
+    text-decoration: none;
+}
+#pagination li>a.current{
+    color: #fff;
+    background-color: #475174;
+}
+#bottom_button {
+    display: inline-block;
+	margin-top: 10px;
+    float: right;
+}
+#bottom_button button{
+    position: relative;
+    top:2px;
+}
+form[action="searchNotice"]{
+	display: inline-block;
+}
+#writebtn{
+	position: relative;
+	top: 1px;
+	height: 18px;
+}

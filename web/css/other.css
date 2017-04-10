@@ -1,0 +1,36 @@
+h2{
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+.h_deco{
+    display: inline-block;
+    width: 200px;
+    height: 2px;
+    margin-bottom: 15px;
+    background-color: #475174;
+}
+li div{
+	display: inline-block;
+}
+#otherlist>li{
+	padding: 15px 7px;
+	border-bottom: 1px solid;
+	border-bottom-color: #cccccc;
+}
+#imgbox{
+	width: 30%;
+}
+#content{
+	width: 67%;
+}
+h3{
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+p{
+	text-indent: 5px;
+	line-height: 20px;
+	font-size: 16px;
+	font-weight: 400;
+}

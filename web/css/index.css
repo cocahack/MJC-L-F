@@ -1,0 +1,134 @@
+#main{
+    background: url(../img/bg_con.png) repeat 0 0;
+    height: 600px;
+}
+#main>div{
+    margin: 0 auto;
+}
+#main>div>div{
+    float: left;
+}
+#visual {
+	height: 600px;
+    overflow: hidden;
+}
+#content{
+    height: 270px;
+}
+.tab_container{
+    overflow: auto;
+    margin: 13px 0 0 10px;
+}
+.tab_container>ul>li {
+	float: left;
+    position: absolute;
+}
+.tab_container h2{
+    position: relative;
+    width: 0px;
+    display: inline;
+    top:2px;
+}
+.tab_container h2>a{
+    padding: 5px 7px;
+    border-radius: 4px 4px 0 0;
+    border: 1px solid #a1a1a1;
+    background-color: #ccc;
+    color: black;
+}
+.tab_active{
+    background-color: #cb1864 !important;
+    color: white !important;
+}
+#notice{
+    z-index: 1;
+}
+#qna {
+    position: relative;
+	left: 79px;
+}
+#qna+div{
+    display: none;
+    z-index: 0;
+}
+.main_notice{
+    margin-top: 10px;
+    width: 317px;
+    height: 196px;
+    padding: 15px;
+    background: #fafafa;
+    border: 1px solid #ddd;
+}
+.main_notice li{
+    margin-bottom: 7px;
+}
+.main_notice a{
+	display: inline-block;
+    color: black;
+    padding-left: 7px;
+    font-size: 12px;
+    margin-left: 10px;
+    width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    background: url(../img/ico_li05.gif) no-repeat 0 50%;
+}
+.main_notice li>a>p{
+    display: inline-block;
+    font-size: 12px;
+    padding: 3px 0;
+    margin-right: 7px;
+    color: #ff7373;
+}
+.main_notice li>span{
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    padding: 3px 0;
+    margin-right: 7px;
+    color: #6f6f6f;
+}
+#loss{
+    z-index: 1;
+}
+#found{
+    position: relative;
+    left:63px;
+}
+#found+div{
+    display: none;
+    z-index: 0;
+}
+footer{
+    position: relative;
+    min-width: 1000px;
+    height: 75px;
+    background: #d9d9d9;
+    z-index: 999;
+}
+footer>div{
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    padding-top: 15px;
+}
+#p_logo {
+    float: left;
+}
+#p_logo>img{
+	margin-right: 70px;
+	margin-bottom:20px;
+    vertical-align: middle;
+}
+.address {
+    line-height: 17px;
+    font-size: 11px;
+    color: #4c4c4c;
+}
+.foreign_link{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+

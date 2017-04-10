@@ -1,0 +1,113 @@
+#files{
+    display: none;
+}
+.fileList {
+	border: 1px dashed #CCCCCC;
+    padding: 20px;
+    min-height: 200px;
+    max-height: 490px;
+    background-color: #FAFAFA;
+}
+.uploadbtn{
+    display: block;
+    position: absolute;
+    width: 105px;
+    padding: 7px 10px;
+    float: left;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 2px;
+    border: 1px solid;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.37) inset, 1px 0 1px rgba(255, 255, 255, 0.07) inset, 0 1px 0 rgba(0, 0, 0, 0.36), 0 -2px 12px rgba(0, 0, 0, 0.08) inset;
+}
+#upload{
+	background: #00ABC7;
+	border-color: #37B7CC;
+}
+#submitbtn{
+	left: 150px !important;
+	background-color: #5cb85c;
+    border-color: #4cae4c;
+}
+.thumbnail-area {
+    position: relative;
+    top:35px;
+}
+.thumbnail-wrapper {
+    display: inline-block;
+    max-width: 120px;
+    padding: 7px;
+    margin-right: 15px;
+    max-height: 150px;
+    background-color: #EBF6E0;
+    color: #424242;
+    border-bottom: 1px solid #D3DED1;
+    border-top: 1px solid #F7FFF5;
+}
+.img-wrapper{
+    width: 100%;
+}
+.thumbnail-img{
+    margin: 0 auto;
+    max-width: 90px;
+    max-height: 90px;
+    display: block;
+}
+.file-name{
+    width: auto;
+    height:16px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+    font-size: 13px;
+}
+.file-size{
+    width: auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow-x: hidden;
+    font-size: 13px;
+    height:25px;
+}
+.removebtn{
+    float: right;
+    border: none;
+    background: 0 0;
+    color: #00A0BA;
+    font-size: 12px;
+    padding: 0;
+}
+.removeIcon{
+    display: inline-block;
+    float: right;
+    margin-top: 5px;
+    width: 15px;
+    height: 15px;
+    background: url(../img/fileupload/trash.gif) no-repeat;
+}
+#allcancelbtn{
+	left: 271px !important;
+	background-color: #d9534f ;
+    border-color: #d43f3a ;
+}
+.disabled{
+	background-color: #d3d3d3 !important;
+	border-color: #bdbdbd !important;
+	color: black !important;
+}
+#cancelbtn{
+	background-color: #d9534f ;
+    border-color: #d43f3a ;
+    width: 50px;
+    padding: 2px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 2px;
+    border: 1px solid;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.37) inset, 1px 0 1px rgba(255, 255, 255, 0.07) inset, 0 1px 0 rgba(0, 0, 0, 0.36), 0 -2px 12px rgba(0, 0, 0, 0.08) inset;
+}
+#retract{
+	left: 393px !important;
+	background: #00ABC7;
+	border-color: #37B7CC;
+}

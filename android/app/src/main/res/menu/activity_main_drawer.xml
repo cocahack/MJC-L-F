@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/nav_lostrecord"
+            android:icon="@drawable/lostrecode_icon"
+            android:title="분실물 등록" />
+        <item
+            android:id="@+id/nav_findrecord"
+            android:icon="@drawable/findrecode_icon"
+            android:title="습득물 등록" />
+        <item
+            android:id="@+id/nav_lostlist"
+            android:icon="@drawable/lostlist_icon"
+            android:title="분실물 조회" />
+        <item
+            android:id="@+id/nav_findlist"
+            android:icon="@drawable/findlist_icon"
+            android:title="습득물 조회" />
+    </group>
+
+    <item android:title="Community"
+        >
+        <menu>
+            <item
+                android:id="@+id/nav_notice"
+                android:icon="@drawable/notice"
+                android:title="공지사항" />
+            <item
+                android:id="@+id/nav_qna"
+                android:icon="@drawable/faq"
+                android:title="FAQ" />
+        </menu>
+    </item>
+
+</menu>

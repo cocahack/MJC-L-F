@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">명지전문대 유실물</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="ID">학번</string>
+    <string name="password">비밀번호</string>
+    <string name="login">로그인</string>
+    <string name="lostlist">※ 분실물 리스트를 확인하기위해 분류를 선택해주세요. </string>
+    <string name="findlist">※ 습득물 리스트를 확인하기위해 분류를 선택해주세요. </string>
+    <string name="findrecord">습득물 등록</string>
+    <string name="lostrecord">분실물 등록</string>
+    <string name="recordNotice">※ 모든 게시물은 서버의 안정성을 위하여 3개월 후 자동으로 삭제됩니다.</string>
+    <string name="findname">습득물명</string>
+    <string name="finddate">습득일자</string>
+    <string name="findplace">습득장소</string>
+    <string name="lostname">분실물명</string>
+    <string name="lostdate">분실일자</string>
+    <string name="lostdateselect">날짜선택</string>
+    <string name="lostplace">분실장소</string>
+    <string name="select">선택</string>
+    <string name="list">물품분류</string>
+    <string name="phonenumber">전화번호</string>
+    <string name="phonenotice">" - 빼고 입력"</string>
+    <string name="kakao">카카오톡 ID</string>
+    <string name="information">상세정보</string>
+    <string name="picture">사진첨부</string>
+    <string name="pic_notice">※사진첨부시 물건찾기가 보다 수월합니다</string>
+    <string name="causion_regit1">※해당 색깔의 항목은 반드시 입력하셔야 합니다</string>
+    <string name="causion_regit2">※해당 색깔의 항목은 하나 이상 입력하셔야 합니다</string>
+    <string name="accept">등록</string>
+    <string name="example">ex) 나이키 빨간색 백팩</string>
+    <string name="permission_denied_contacts">저장소 접근이 제한되어 있어 일부 기능이 실행되지 않고 있습니다. 조회 목적이 아닌 등록 서비스를 이용하시려면 권한을 주셔야 합니다.</string>
+</resources>
